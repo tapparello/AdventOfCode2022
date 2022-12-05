@@ -37,7 +37,7 @@ namespace AdventOfCode
                 // Part 2
                 group.Add(line);
 
-                if (group.Count() == 3)
+                if (group.Count == 3)
                 {
                     var badge = group[0].Intersect(group[1]).Intersect(group[2]);
                     foreach (char b in badge)

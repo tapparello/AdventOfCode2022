@@ -4,17 +4,23 @@
 using AdventOfCode;
 
 
-//Console.WriteLine("Day 1:");
-//Day1 dayOne = new Day1();
-//dayOne.Execute();
+Console.WriteLine("Day 1:");
+new Day1().Execute();
 
-//Console.WriteLine("Day 2:");
-//Day2 dayTwo = new Day2();
-//dayTwo.Execute();
+Console.WriteLine("Day 2:");
+new Day2().Execute();
 
 Console.WriteLine("Day 3:");
-Day3 day3 = new Day3();
-day3.Execute();
+new Day3().Execute();
+
+Console.WriteLine("Day 4:");
+new Day4().Execute();
+
+Console.WriteLine("Day 5:");
+new Day5().Execute();
+
+Console.WriteLine("Day 6:");
+new Day6().Execute();
 
 
 
