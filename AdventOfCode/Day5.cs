@@ -1,10 +1,10 @@
 ﻿namespace AdventOfCode
 {
-	public class Day5
-	{
-		public Day5()
-		{
-		}
+    public class Day5
+    {
+        public Day5()
+        {
+        }
 
         public void Execute()
         {
@@ -15,7 +15,7 @@
             List<Stack<string>> stacksPart2 = new();
             Stack<string> tempStack = new();
 
-            for (int i = 0; i<10; i++)
+            for (int i = 0; i < 10; i++)
             {
                 inputStacks.Add(new Stack<string>());
                 stacks.Add(new Stack<string>());
@@ -88,7 +88,7 @@
                     }
 
                 }
-                
+
             }
 
             string finalTopStacks = "";
@@ -119,7 +119,7 @@
             for (int i = 0; i < stringLength; i += crateSize)
             {
                 if (i + crateSize > stringLength) crateSize = stringLength - i; // Last crate doesn't have the space
-                level.Add(line.Substring(i+1, 1)); // Discard the square brackets
+                level.Add(line.Substring(i + 1, 1)); // Discard the square brackets
             }
             return level;
         }
