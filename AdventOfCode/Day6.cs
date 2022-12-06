@@ -14,11 +14,11 @@ namespace AdventOfCode
 
                 // Part 1
                 var position = 0;
-                var markerLenght = 4;
+                var markerLength = 4;
                 for (int i=0; i<line.Length; i++)
                 {
-                    var marker = line[i..(i+ markerLenght)];
-                    if (marker.Distinct().Count() == markerLenght)
+                    var marker = line[i..(i+ markerLength)];
+                    if (marker.Distinct().Count() == markerLength)
                     {
                         position = i + 4;
                         break;
@@ -28,11 +28,11 @@ namespace AdventOfCode
 
                 // Part 2
                 position = 0;
-                var messageLenght = 14;
+                var messageLength = 14;
                 for (int i = 0; i < line.Length; i++)
                 {
-                    var marker = line[i..(i + messageLenght)];
-                    if (marker.Distinct().Count() == messageLenght)
+                    var marker = line[i..(i + messageLength)];
+                    if (marker.Distinct().Count() == messageLength)
                     {
                         position = i + 14;
                         break;
